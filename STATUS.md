@@ -1,8 +1,8 @@
 # zig-stakeholder Status
 
-Last updated: 2026-04-09 19:10 CEST
+Last updated: 2026-04-13 CEST
 
-- Role: `active-wider-matrix`
+- Role: `validated-wider-matrix`
 - Parity class: `full-parity-target`
 - Phase target: `docker-validated-wider-matrix`
 - Phase state: `complete`
@@ -16,12 +16,12 @@ Last updated: 2026-04-09 19:10 CEST
 - Upstream: `https://github.com/giacomo-b/rust-stakeholder`
 
 ## Blockers
-- Docker validation passed locally, but host-native zig build/test remain environment-blocked by a Homebrew Zig Darwin linker issue on this workstation.
-- flake.lock generation is pending until nix is installed locally.
+- Docker validation passed locally, but host-native `zig build` and `zig build test` remain environment-blocked by a Homebrew Zig Darwin linker issue on this workstation.
+- `flake.lock` is now generated through the installed Nix toolchain.
 - Remote creation/push is blocked by the program-level 10-full-rewrites publication guardrail.
 
 ## Next
-- Keep the repo local-only until the 10-rewrite publication threshold is met.
+- Keep the repo publication-held until the 10-rewrite publication threshold is met.
 - Use the Docker-validated Zig tranche as the template for the remaining wider-matrix repos.
 
 ## Canonical references

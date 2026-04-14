@@ -5,7 +5,7 @@
 Zig parity target under `stakeholder-circus`.
 
 ## Status
-- Active local implementation tranche.
+- Validated wider-matrix repo held for publication.
 - Imported Rust history is preserved for attribution and auditability.
 - Classic-six and modern-core are implemented locally with deterministic normalized JSON and explicit allocator wiring.
 - Docker validation is green for build, test, list-values, representative family JSON smokes, deterministic same-seed output, and experimental-provider fail-fast.

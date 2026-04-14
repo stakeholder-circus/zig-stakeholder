@@ -22,4 +22,4 @@
 - `dependency-review`
 
 ## Current limitation
-- `flake.lock` has not been generated locally because `nix` is not installed in the current environment.
+- `flake.lock` is now generated locally through the installed Nix toolchain.
